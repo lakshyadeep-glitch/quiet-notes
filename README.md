@@ -1,54 +1,71 @@
 # Quiet Notes
 
-A minimal, distraction-free notes app for writing and organizing notes with Markdown support.
+Quiet Notes is a minimal, browser-based note-taking application designed for distraction-free writing. It features Markdown editing, instant search, and automatic local storage to help users create and manage notes easily.
 
 ## Features
 
-- **Create & Delete Notes** — Easily manage your notes.
-- **Instant Search** — Quickly find notes by title or content.
-- **Markdown Editor** — Write notes using Markdown syntax.
-- **Preview Mode** — Switch between editing and rendered Markdown.
-- **Local Storage** — Your notes are saved in your browser automatically.
-- **Last Edited Timestamps** — See when your notes were last updated.
-- **Keyboard Shortcuts** — Navigate and manage notes efficiently.
-- **Responsive Design** — Works on desktop and mobile screens.
+- **Create and Delete Notes:** Create new notes and remove notes you no longer need.
+- **Instant Search:** Search notes by title or content.
+- **Markdown Support:** Write notes using Markdown syntax.
+- **Preview Mode:** Switch between the Markdown editor and rendered preview.
+- **Automatic Saving:** Notes are saved automatically in the browser's local storage.
+- **Last Edited Timestamp:** Track when each note was last updated.
+- **Keyboard Shortcuts:** Use keyboard shortcuts for common actions and navigation.
+- **Responsive Interface:** Minimal interface designed for desktop and mobile screens.
 
-## Built With
+## Live Demo
+
+[Open Quiet Notes](https://lakshyadeep-glitch.github.io/quiet-notes/)
+
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Browser Local Storage
+- Web Storage API (`localStorage`)
 
 ## Getting Started
 
-1. Clone this repository:
+You can use Quiet Notes directly through the live demo or run it locally.
+
+### Run Locally
+
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/quiet-notes.git
+   git clone https://github.com/lakshyadeep-glitch/quiet-notes.git
    ```
 
 2. Open the project folder.
 3. Open `index.html` in your web browser.
 
-No installation or additional dependencies are required.
+No installation, package manager, or backend server is required.
 
-## Data Storage
+## Data Storage and Privacy
 
-Notes are stored locally in your browser using `localStorage`. They are not automatically synced across devices or browsers.
+Quiet Notes stores notes in the browser's local storage. Notes remain in the browser where they were created and are not automatically synchronized across devices.
 
-**Note:** Clearing your browser's site data may delete your saved notes. Back up important notes separately.
+Clearing the browser's site data may permanently remove saved notes. Back up any important content before clearing browser data.
 
-## Live Demo
+## Project Structure
 
-[Open Quiet Notes](https://YOUR-USERNAME.github.io/quiet-notes/)
+```text
+quiet-notes/
+├── index.html
+└── README.md
+```
 
-Replace `YOUR-USERNAME` with your GitHub username after enabling GitHub Pages.
+## Future Improvements
+
+- Export and import notes.
+- Add support for multiple themes.
+- Improve Markdown rendering.
+- Add note organization with tags or folders.
 
 ## License
 
-No license has been specified yet. Add a license file if you want to define how others can use, modify, and distribute your code.
+No license has been specified for this project yet.
 
 ---
 
-Built for simple, focused writing.
+Developed as a lightweight note-taking application using HTML, CSS, and JavaScript.
