@@ -1,26 +1,39 @@
-<p align="center">
-  <img src="logo.png" alt="Quiet Notes Logo" width="180">
+ <p align="center">
+  <img src="Glossy%20Quill%20and%20Notepad%20Icon.png" alt="Quiet Notes Logo" width="180">
 </p>
 
+<h1 align="center">Quiet Notes</h1>
 
-# Quiet Notes
+<p align="center">
+  A minimal, distraction-free note-taking application built for simple and focused writing.
+</p>
 
-Quiet Notes is a minimal, browser-based note-taking application designed for distraction-free writing. It features Markdown editing, instant search, and automatic local storage to help users create and manage notes easily.
+<p align="center">
+  <a href="https://lakshyadeep-glitch.github.io/quiet-notes/">Live Demo</a>
+</p>
+
+---
+
+## Overview
+
+Quiet Notes is a lightweight, browser-based note-taking application that helps users create, organize, search, and edit notes in a clean interface. It supports Markdown editing and automatically saves notes in the browser.
 
 ## Features
 
-- **Create and Delete Notes:** Create new notes and remove notes you no longer need.
+- **Create and Delete Notes:** Create new notes and delete existing ones.
 - **Instant Search:** Search notes by title or content.
-- **Markdown Support:** Write notes using Markdown syntax.
-- **Preview Mode:** Switch between the Markdown editor and rendered preview.
-- **Automatic Saving:** Notes are saved automatically in the browser's local storage.
-- **Last Edited Timestamp:** Track when each note was last updated.
+- **Markdown Editing:** Write notes using Markdown syntax.
+- **Preview Mode:** Switch between editing notes and viewing rendered Markdown.
+- **Automatic Saving:** Save notes automatically in browser local storage.
+- **Last Edited Timestamps:** Track when notes were last updated.
 - **Keyboard Shortcuts:** Use keyboard shortcuts for common actions and navigation.
-- **Responsive Interface:** Minimal interface designed for desktop and mobile screens.
+- **Responsive Design:** Use the application on desktop and mobile screens.
 
 ## Live Demo
 
-[Open Quiet Notes](https://lakshyadeep-glitch.github.io/quiet-notes/)
+Visit the application:
+
+https://lakshyadeep-glitch.github.io/quiet-notes/
 
 ## Technologies Used
 
@@ -31,7 +44,7 @@ Quiet Notes is a minimal, browser-based note-taking application designed for dis
 
 ## Getting Started
 
-You can use Quiet Notes directly through the live demo or run it locally.
+You can use Quiet Notes directly through the live demo or run it locally on your computer.
 
 ### Run Locally
 
@@ -41,31 +54,38 @@ You can use Quiet Notes directly through the live demo or run it locally.
    git clone https://github.com/lakshyadeep-glitch/quiet-notes.git
    ```
 
-2. Open the project folder.
+2. Open the downloaded project folder.
 3. Open `index.html` in your web browser.
 
-No installation, package manager, or backend server is required.
+No additional dependencies or installation are required.
 
 ## Data Storage and Privacy
 
-Quiet Notes stores notes in the browser's local storage. Notes remain in the browser where they were created and are not automatically synchronized across devices.
+Quiet Notes stores notes in the browser's local storage.
 
-Clearing the browser's site data may permanently remove saved notes. Back up any important content before clearing browser data.
+- Notes are stored in the browser where they were created.
+- Notes are not automatically synchronized across devices or browsers.
+- Clearing browser site data may delete saved notes.
+
+Back up important notes before clearing your browser data.
 
 ## Project Structure
 
 ```text
 quiet-notes/
-├── index.html
-└── README.md
+├── Glossy Quill and Notepad Icon.png
+├── README.md
+└── index.html
 ```
 
 ## Future Improvements
 
-- Export and import notes.
-- Add support for multiple themes.
-- Improve Markdown rendering.
-- Add note organization with tags or folders.
+Potential improvements include:
+
+- Importing and exporting notes.
+- Adding themes and customization options.
+- Organizing notes with tags or folders.
+- Improving Markdown rendering.
 
 ## License
 
