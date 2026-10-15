@@ -1,4 +1,6 @@
 # Quiet Notes
+![Uploading image.png…]()
+
 
 Quiet Notes is a minimal, browser-based note-taking application designed for distraction-free writing. It features Markdown editing, instant search, and automatic local storage to help users create and manage notes easily.
 
