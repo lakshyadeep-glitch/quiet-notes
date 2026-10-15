@@ -1,6 +1,9 @@
+<p align="center">
+  <img src="logo.png" alt="Quiet Notes Logo" width="180">
+</p>
+
+
 # Quiet Notes
-
-
 
 Quiet Notes is a minimal, browser-based note-taking application designed for distraction-free writing. It features Markdown editing, instant search, and automatic local storage to help users create and manage notes easily.
 
