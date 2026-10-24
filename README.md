@@ -91,6 +91,4 @@ Potential improvements include:
 
 No license has been specified for this project yet.
 
----
-
-Developed as a lightweight note-taking application using HTML, CSS, and JavaScript.
+BY LAkshya :)
