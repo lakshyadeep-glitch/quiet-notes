@@ -85,4 +85,5 @@ Possible future additions include:
 - Optional synchronization across devices
 License
 No license has been specified for this project yet.
-Made with care by Lakshya :)
+
+BY LAkshya :)
